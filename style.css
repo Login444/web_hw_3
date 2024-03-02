@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-image: url(/img/Travel_Time_background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 73px;
+  margin-left: 115px;
+  margin-right: 155px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.join_button {
+  display: flex;
+  justify-content: center;
+}
+.this_page {
+  /* text-decoration-color: black; */
+  text-decoration: none;
+  border-bottom: 3px black solid;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 24px;
+}
+.other_pages {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 24px;
+}
+.h1_travel_time {
+  font-family: Poppins;
+  color: #ffffff;
+  font-size: 96px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 98px;
+}
+.p_home_text {
+  font-family: Poppins;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 275;
+  padding-left: 86px;
+  padding-right: 86px;
+}
+.join_button {
+  margin-top: 369px;
+  margin-right: 279px;
+  margin-left: 279px;
+  margin-bottom: 179px;
+}
+.button {
+  border: 1px solid #00b43d;
+  border-radius: 8px;
+  padding: 16px 28px;
+  width: 191px;
+  height: 60px;
+  box-shadow: 0 0 0 4px #fee4e2, 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  background: #00b43d;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 117%;
+  color: #fff;
+}
+.registration {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  font-family: Poppins;
+  color: #ffffff;
+  font-size: 24px;
+}
